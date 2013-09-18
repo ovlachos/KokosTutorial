@@ -10,11 +10,19 @@ public:
 	int x;
 	int y;
 
-	int add(int x, int y)
+	int add()
 	{
 		return x + y;
 	}
 
+};
+
+enum Result
+{
+    SUCCESS = 0,
+    ERROR_OPENING_FILE = -1,
+    ERROR_READING_FILE = -2,
+    ERROR_PARSING_FILE = -3,
 };
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -41,6 +49,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	char fff;
 	cin >> fff;
-	return 0;
+	return SUCCESS;
 }
 
