@@ -10,7 +10,7 @@ public:
 	int x;
 	int y;
 
-	int add()
+	int add(int x, int y)
 	{
 		return x + y;
 	}
