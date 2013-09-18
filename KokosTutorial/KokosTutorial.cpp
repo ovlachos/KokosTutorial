@@ -20,33 +20,23 @@ public:
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int a = 5;
-
 	cout<< " a: " << a << endl;
 
 	int *p = &a;
-
 	*p = 666;
-
 	cout << " a: " << a << endl;
 	
 	(*p) =45;
-	
 	cout << " a: " << a << endl;
-
+	
 	cout << "-------------" << endl;
-
 	Point po;
-
 	po.x = 6;
 	po.y = 3;
-
 	cout << " po: " << po.add() << endl;
 
-
 	Point* p2 = &po;
-
 	// p2->     =       (*p2).
-
 	cout << " po: " << p2->add() << endl;
 
 	char fff;
