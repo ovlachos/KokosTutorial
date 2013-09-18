@@ -4,7 +4,6 @@
 #include "stdafx.h"
 using namespace std;
 
-
 class Point{
 public:
 	int x;
